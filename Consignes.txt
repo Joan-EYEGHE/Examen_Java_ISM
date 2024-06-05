@@ -1,0 +1,23 @@
+Réaliser les Fonctionnalités suivantes: 
+Ajouter un Module
+Lister les Modules
+Créer un cours
+Lister les  tous les cours 
+Lister les  les cours  d’un module et d’un professeur
+Quitter
+
+Contraintes  : 
+Les modules et les cours sont stockés dans une Base de donnée
+Les Professeurs sont initialisés dans Base de donnée
+Les dates sont en LocalDate et les Heures en LocalTime
+Un cours est caractérisé par son id,sa date , son heureDb , heureFin ,son  professeur(id,nom,prenom,tel)   et son Module(id nom Module) 
+Le nom d’un Module est unique
+
+Relations
+Cours - > professeur "One TO MAny" 
+Module -> Cours     "One TO MAny"
+Cours ->  Module    "Many To ONE"
+
+
+
+

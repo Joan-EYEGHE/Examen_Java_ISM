@@ -1,0 +1,6 @@
+System.out.println("Entrer le Libelle : ");                
+String libelle=sc.nextLine();
+
+
+System.out.println("Entrer le Libelle : ");                
+int libelle=sc.nextLine();
